@@ -1,11 +1,16 @@
-import React, { Component } from 'react'
+import React, { Component } from "react";
+import Navbar from "./Navbar";
+import ParentTable from "./ParentTable";
 
 export class Grid extends Component {
   render() {
     return (
-      <div>Grid</div>
-    )
+      <div>
+        <Navbar />
+        <ParentTable />
+      </div>
+    );
   }
 }
 
-export default Grid
+export default Grid;
