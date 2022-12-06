@@ -1,5 +1,5 @@
 import { useState } from "react";
-import Grid from "./Grid";
+import Dashboard from "./Dashboard";
 
 
 function App() {
@@ -7,7 +7,7 @@ function App() {
 
   return (
     <div className="App">
-      <Grid />
+      <Dashboard />
     </div>
   );
 }
